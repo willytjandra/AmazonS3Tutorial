@@ -8,7 +8,7 @@ Luckily for AWS S3 bucket, there is [LocalStack](https://github.com/localstack/l
 
 > LocalStack supports various cloud API, not just S3. Checkout supported API [here](https://github.com/localstack/localstack#overview). With Pro license, you get more API supports.
 
-So, I created this repo to remind my future self that there ia way to run AWS Cloud API in my local machine.
+So, I created this repo to remind my future self that there is a way to run AWS Cloud API in my local machine.
 
 ## Contents
 - [Developing with Amazon S3 bucket locally](#developing-with-amazon-s3-bucket-locally)
