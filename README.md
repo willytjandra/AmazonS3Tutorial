@@ -63,7 +63,7 @@ Once the sample code runs successfully, run below command to verify that `hello-
 aws --endpoint-url=http://localhost:4566 s3 ls s3://hello-s3
 ```
 
-![](./docs/2021-05-10 21_23_31-localstack-s3-list-files.png)
+<img src="./docs/2021-05-10 21_23_31-localstack-s3-list-files.png" />
 
 You can use browser to check the file: [http://localhost:4566/hello-s3/20210510_092321_hello-world.txt](http://localhost:4566/hello-s3/20210510_092321_hello-world.txt).
 
