@@ -1,0 +1,14 @@
+﻿version: '3.9'
+
+services:
+  localstack:
+    image: localstack/localstack:latest
+    container_name: hello-localstack
+    ports:
+      - 4566:4566
+    environment:
+      - SERVICES=s3
+      - DEBUG=1
+      - DATA_DIR:/tmp/localstack/data
+    volumes:
+      - ~/.localstack/data:/tmp/localstack/data
